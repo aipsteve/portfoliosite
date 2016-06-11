@@ -2,14 +2,16 @@
 <html>
 <head>
 	<title>Steve Medley: Web Designer</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="container">
-		<div class="row" id="header" style="min-height: 115px">
+		<header class="row" id="header">
 			<div class="col-md-1" id="logo">
 				<picture>
 					<source srcset="img/logo100.jpg 1x, img/logo200.png 2x">
@@ -17,15 +19,19 @@
 				</picture>
 			</div>
 			<div class="col-md-11" id="title">
-				<div id="name" style="text-align: right">
+				<div id="name">
 					<h1 class="raleway text-uppercase">Steve Medley</h1>
 				</div>
-				<div id="job" style="text-align: right">
+				<div id="job">
 					<h4 class="raleway text-uppercase">Web Designer</h4>
 				</div>
 			</div>
-		</div>
-		<div class="row" id="main">
+			<div class="col-md-12">
+				<br>
+				<p class="raleway">Professional web development for small business and independent contractors.</p>
+			</div>
+		</header>
+		<section class="row" id="main">
 			<div class="col-md-12" id="content">
 				<hr>
 				<picture>
@@ -34,13 +40,13 @@
 					<img src="http://placehold.it/1000x450" class="img-responsive center-block" alt="HTML Code">
 				</picture>
 			</div>
-		</div>
-		<div class="row" id="footer">
-			<div class="row" id="footertitle" style="text-align: center">
-				<h3 class="raleway" style="color: #7d97ad">Featured Work</h3>
+		</section>
+		<footer class="row" id="footer">
+			<div class="col-md-12 footercenters">
+				<h3 class="raleway" id="featuredwork">Featured Work</h3>
 			</div>
 			<div class="col-md-4" id="promo1">
-				<div style="text-align: center">
+				<div class="footercenters">
 					<a target="_blank" href="http://www.medleyhouse.com">
 						<picture>
 							<source srcset="img/house.webp" class="img-rounded">
@@ -49,15 +55,15 @@
 						</picture>
 					</a>
 				</div>
-				<div style="text-align: center">
-					<h2 class="raleway" style="color: #2d3c49">House Medley</h2>
+				<div class="footercenters">
+					<h2 class="raleway featuredtitles">House Medley</h2>
 				</div>
-				<div style="text-align: center">
+				<div class="footercenters">
 					<a href="http://www.medleyhouse.com" class="raleway">www.MedleyHouse.com</a>
 				</div>
 			</div>
 			<div class="col-md-4" id="promo2">
-				<div style="text-align: center">
+				<div class="footercenters">
 					<a target="_blank" href="http://www.sweetharttreats.com">
 						<picture>
 							<source srcset="img/treats.webp" class="img-rounded">
@@ -66,15 +72,15 @@
 						</picture>
 					</a>
 				</div>
-				<div style="text-align: center">
-					<h2 class="raleway" style="color: #2d3c49">Sweet Hart Treats</h2>
+				<div class="footercenters">
+					<h2 class="raleway featuredtitles">Sweet Hart Treats</h2>
 				</div>
-				<div style="text-align: center">
+				<div class="footercenters">
 					<a href="http://www.sweetharttreats.com" class="raleway">www.SweetHartTreats.com</a>
 				</div>
 			</div>
 			<div class="col-md-4" id="promo3">
-				<div style="text-align: center">
+				<div class="footercenters">
 					<a target="_blank" href="http://www.atlantisitprofessionals.com">
 						<picture>
 							<source srcset="img/aip.webp" class="img-rounded">
@@ -83,14 +89,14 @@
 						</picture>
 					</a>
 				</div>
-				<div style="text-align: center">
-					<h2 class="raleway" style="color: #2d3c49">Atlantis IT Professionals</h2>
+				<div class="footercenters">
+					<h2 class="raleway featuredtitles">Atlantis IT Professionals</h2>
 				</div>
-				<div style="text-align: center">
+				<div class="footercenters">
 					<a href="http://www.atlantisitprofessionals.com" class="raleway">www.AtlantisITProfessionals.com</a>
 				</div>
 			</div>
-		</div>
+		</footer>
 	</div>
 </body>
 </html>
